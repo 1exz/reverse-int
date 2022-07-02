@@ -1,4 +1,3 @@
 module.exports = function reverse (n) {
-    let arr = Number(('' + n).split('').reverse().join(""))
-    return arr
+    return +("" + Math.abs(n)).split("").reverse().join("")
 }
